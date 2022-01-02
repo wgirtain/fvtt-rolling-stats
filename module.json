@@ -1,0 +1,25 @@
+{
+    "name": "rolling-stats",
+    "title": "Rolling Stats",
+    "description": "Keeps track of dice rolls to print the average of rolls for each user.",
+    "authors": [
+      {
+        "name": "Billy Girtain",
+        "url": "https://github.com/wgirtain",
+        "discord": "rangerwill#9043"
+      }
+    ],
+    "version": "1.0.0",
+    "minimumCoreVersion": "8",
+    "compatibleCoreVersion": "9",
+    "scripts": [
+      "scripts/rolling_stats.js"
+    ],
+    "dependencies": [
+      {
+        "name": "_chatcommands",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.4.0/module.json"
+      }
+    ]
+  }
