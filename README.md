@@ -26,6 +26,6 @@ Alias for `/rollstats [username]`.
 ## To Do
 1. Add inline rolls
 2. Persist data even if chat is deleted
-3. Add more statistics, such as mode and most/least rolled numbers
-4. Allow printing of more than one specified player
+3. Allow printing of more than one specified player
+4. Look into chat command arguments, such as only displaying certain dice values, or omitting dice
 

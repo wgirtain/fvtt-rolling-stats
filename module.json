@@ -1,7 +1,7 @@
 {
     "name": "rolling-stats",
     "title": "Rolling Stats",
-    "description": "Keeps track of dice rolls to print the average of rolls for each user.",
+    "description": "Keeps track of dice rolls to print roll stats for each user.",
     "authors": [
       {
         "name": "Billy Girtain",
