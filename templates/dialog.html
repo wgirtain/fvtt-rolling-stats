@@ -1,0 +1,16 @@
+<form>
+    <div class="rs-content">
+        <nav class="sheet-tabs tabs">
+            {{#each tabs}}
+            <a class='item' data-tab='{{name}}'>{{name}}</a>
+            {{/each}}
+        </nav>
+        {{#each tabs}}
+        <section class='tab' data-tab='{{name}}'>
+            <div class="form-group">
+                {{{content}}}
+            </div>
+        </section>
+        {{/each}}
+    </div>
+</form>

@@ -1,0 +1,18 @@
+<form>
+    <table>
+        <!-- Header Row -->
+        <tr>
+            {{#each headers}}
+            <th>{{this}}</th>
+            {{/each}}
+        </tr>
+        <!-- Data Rows -->
+        {{#each data}}
+        <tr>
+            {{#each this}}
+            <td>{{this}}</td>
+            {{/each}}
+        </tr>
+        {{/each}}
+    </table>
+</form>

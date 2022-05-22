@@ -12,14 +12,20 @@
     "version": "1.0.0",
     "minimumCoreVersion": "8",
     "compatibleCoreVersion": "9",
-    "scripts": [
-      "scripts/rolling_stats.js"
-    ],
+    "esmodules": ["rollingStats.mjs"],
+    "styles": ["styles/rolling_stats.css"],
     "dependencies": [
       {
         "name": "_chatcommands",
         "type": "module",
         "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.4.0/module.json"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
       }
     ]
   }

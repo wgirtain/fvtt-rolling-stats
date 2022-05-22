@@ -1,0 +1,86 @@
+/*
+ * Rolling Stats Dialog
+ */
+.rolling-stats {
+    max-width: 800px;
+}
+
+.rolling-stats .tabs {
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+    height: 32px;
+    justify-content: unset;
+    overflow-x: auto;
+    padding-bottom: 0.3em;
+    white-space: nowrap;
+}
+
+.rolling-stats .tabs .item {
+    margin: 2px 10px;
+}
+
+.rolling-stats .tab {
+    overflow-x: auto;
+}
+
+.rolling-stats tr th:first-child {
+    padding-right: 8px;
+}
+
+.rolling-stats tr th {
+    padding: 0 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.rolling-stats tr th:last-child {
+    padding-left: 8px;
+}
+
+.rolling-stats tr td:first-child {
+    padding-right: 4px;
+}
+
+.rolling-stats tr td {
+    padding: 0 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rolling-stats tr td:last-child {
+    padding-left: 4px;
+}
+
+/*
+ * Rolling Stats Button
+ */
+#rolling-stats-button {
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    font-size: 1rem;
+    left: 107.5px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 12px;
+    width: auto;
+    z-index: 61;
+    pointer-events: all;
+}
+
+#rolling-stats-button:after {
+    content: '🧮';
+}
+
+#rolling-stats-button:hover:after {
+    content: '🎲';
+}
+
+#rolling-stats-button:hover,
+#rolling-stats-button:focus {
+    box-shadow: none;
+    cursor: pointer;
+}

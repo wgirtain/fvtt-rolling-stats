@@ -1,0 +1,24 @@
+{
+    "rollstats": {
+        "command": {
+            "rollstats": {
+                "description": "Displays roll stats dialog for all users.  Optionally provide a username to display that user first."
+            }
+        },
+        "statsDialog": {
+            "formTitle": "Rolling Stats",
+            "headers": {
+                "die": "Die",
+                "totalRolls": "Total Rolls",
+                "average": "Average",
+                "median": "Median",
+                "mostRolled": "Most Rolled",
+                "leastRolled": "Least Rolled"
+            }
+        },
+        "errors": {
+            "invalidUsername": "Invalid username",
+            "validUsernames": "Valid usernames"
+        }
+    }
+}
